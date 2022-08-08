@@ -8,32 +8,28 @@ public class Main_BOJ_2023 {
 
         int n = sc.nextInt();
 
-        if (n == 1) {
-            for (int i = 2; i < 10; i++) {
-                if (isPrime(i)) {
-                    System.out.println(i);
-                }
-            }
-            return;
-        }
-
-        for (int i = (int) (2 * Math.pow(10, n - 1)) + 1; i < Math.pow(10, n); i += 2) {
-            findNum(i, n - 1);
-        }
+        findNum(0, 0, n);
     }
 
-    static void findNum(int num, int start) {
-        if (start == -1) {
+    static void findNum(int num, int start, int n) {
+
+        if (start == n) {
             System.out.println(num);
             return;
         }
 
-        if (isPrime((int) (num / Math.pow(10, start)))) {
-            findNum(num, start - 1);
+        for (int i = 1; i < 10; i++) {
+            int next = (num * 10) + i;
+            if (isPrime(next)) {
+                findNum(next, start + 1, n);
+            }
         }
     }
 
     static boolean isPrime(int n) {
+        if (n == 1) {
+            return false;
+        }
         if (n == 2) {
             return true;
         }
