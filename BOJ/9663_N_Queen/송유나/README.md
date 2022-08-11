@@ -5,5 +5,5 @@
 
 1. 14!개의 가능한 배열을 구한다.
 2. 배열에 숫자를 추가할 때, check를 수행한다.
-3. check는 i(i=1..n-1)일 때, 이전 원소와 현재 원소의 절대값이 i이면 false를 return한다.
+3. check는 i(i=1..n-1)일 때, 이전 원소와 현재 원소의 차의 절대값이 i이면 false를 return한다.
 4. false이면 dfs를 return 하고 다음 dfs를 수행한다.
