@@ -44,8 +44,12 @@ class Main_BOJ_1707 {
                 arr[b].add(a);
             }
 
-            for(int j=1;j<=v;j++) {
-                bfs(j, visit, arr);
+            for (int j = 1; j <= v; j++) {
+                if (ans) {
+                    bfs(j, visit, arr);
+                } else {
+                    break;
+                }
             }
 
             if (ans) {
@@ -57,7 +61,7 @@ class Main_BOJ_1707 {
     }
 
     static void bfs(int idx, int[] visit, ArrayList<Integer>[] edges) {
-        if(visit[idx]==0) {
+        if (visit[idx] == 0) {
             queue.add(idx);
 
             visit[idx] = 1;
