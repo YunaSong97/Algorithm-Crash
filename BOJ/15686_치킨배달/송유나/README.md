@@ -1,1 +1,10 @@
 ![image](https://user-images.githubusercontent.com/33195517/185077924-3d101517-bdcf-48f3-bb7c-ca2dcc0d8213.png)
+
+조합 (백트래킹)
+</br>
+1. 배열을 입력받을 때 치킨집과 집을 ArrayList 에 저장한다.
+2. 집과 치킨집의 치킨거리를 계산해 chickenDist 배열에 저장한다.
+3. 치킨집을 최대 m개 선택할 수 있을 때, 최대로 선택해야 치킨집까지 거리가 최소가 된다.
+4. 치킨집 개수 cCnt 중 m개를 선택하는 조합을 구한다.
+5. chickenDist배열에서 각 집에서 남아있는 치킨집(visit가 true인 것) 거리의 최솟값의 합을 구한다.
+6. ans, 합 중 최솟값을 ans에 저장한다.
