@@ -85,6 +85,36 @@ public class Main_BOJ_21608 {
         }
     }
 
+    static void checkSide(Node node, int student) {
+        int empty = 0;
+        int like = 0;
+
+        for (int i = 0; i < 4; i++) {
+            int nx = node.x + dx[i];
+            int ny = node.y + dy[i];
+
+            if (isOut(nx, ny)) {
+                continue;
+            }
+
+            if (map[nx][ny] == 0) {
+                empty++;
+            } else {
+                if (likeList[student].contains(map[nx][ny])) {
+                    like++;
+                }
+            }
+        }
+
+        node.emptyCnt = empty;
+        node.likeCnt = like;
+        priorityQueue.add(node);
+    }
+
+    static boolean isOut(int x, int y) {
+        return x < 0 || y < 0 || x >= n || y >= n;
+    }
+
     static int calScore() {
         int score = 0;
         int sum = 0;
@@ -124,35 +154,5 @@ public class Main_BOJ_21608 {
         }
 
         return sum;
-    }
-
-    static void checkSide(Node node, int student) {
-        int empty = 0;
-        int like = 0;
-
-        for (int i = 0; i < 4; i++) {
-            int nx = node.x + dx[i];
-            int ny = node.y + dy[i];
-
-            if (isOut(nx, ny)) {
-                continue;
-            }
-
-            if (map[nx][ny] == 0) {
-                empty++;
-            } else {
-                if (likeList[student].contains(map[nx][ny])) {
-                    like++;
-                }
-            }
-        }
-
-        node.emptyCnt = empty;
-        node.likeCnt = like;
-        priorityQueue.add(node);
-    }
-
-    static boolean isOut(int x, int y) {
-        return x < 0 || y < 0 || x >= n || y >= n;
     }
 }
