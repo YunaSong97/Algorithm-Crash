@@ -50,7 +50,6 @@ class Main_BOJ_16236 {
             }
         }
 
-
         map[now.x][now.y] = 0;
         bfs(now);
         System.out.println(ans);
