@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/33195517/185825435-1e4fe430-803b-43ac-8599-dcecbd2f93e1.png)
+
 구현
 </br>
 1. 좋아하는 학생이 많음 -> 빈칸이 많음 -> 행이 작음 -> 열이 작음 순으로 Priority Queue를 만든다.
