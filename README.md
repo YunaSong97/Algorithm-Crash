@@ -20,4 +20,5 @@
 |**3주차**<br>Backtracking<br> (08.05 ~ 08.11)|[N과 M (6)](https://www.acmicpc.net/problem/15655)|[부분수열의 합](https://www.acmicpc.net/problem/1182)|[신기한 소수](https://www.acmicpc.net/problem/2023)|[N-Queen](https://www.acmicpc.net/problem/9663)||
 |**4주차**<br>Graph<br> (08.12 ~ 08.18)|[이분 그래프](https://www.acmicpc.net/problem/1707)|[줄 세우기](https://www.acmicpc.net/problem/2252)|[스타트와 링크](https://www.acmicpc.net/problem/14889)|[치킨 배달](https://www.acmicpc.net/problem/15686)||
 |**5주차**<br>Implementation<br> (08.19 ~ 08.25)|[2048(Easy)](https://www.acmicpc.net/problem/12100)|[아기 상어](https://www.acmicpc.net/problem/16236)|[상어 초등학교](https://www.acmicpc.net/problem/21608)|[로봇 청소기](https://www.acmicpc.net/problem/14503)||
+|**주차**<br>Two-pointer<br> (08.26 ~ 09.01)|[회전 초밥](https://www.acmicpc.net/problem/2531)|[두 용액](https://www.acmicpc.net/problem/2470)||
 </details>
