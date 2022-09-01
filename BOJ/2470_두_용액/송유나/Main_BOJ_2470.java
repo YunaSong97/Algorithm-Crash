@@ -13,6 +13,7 @@ public class Main_BOJ_2470 {
         int n = Integer.parseInt(br.readLine());
 
         ArrayList<Long> liqList = new ArrayList<>();
+
         StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; i++) {
             liqList.add(Long.parseLong(st.nextToken()));
@@ -28,23 +29,14 @@ public class Main_BOJ_2470 {
         while (l < h) {
             long sum = liqList.get(l) + liqList.get(h);
 
+            if (Math.abs(sum) < min) {
+                min = Math.abs(sum);
+                L = l;
+                H = h;
+            }
             if (sum > 0) {
-                if (Math.abs(sum) > min) {
-                    break;
-                } else {
-                    min = Math.abs(sum);
-                    L = l;
-                    H = h;
-                }
                 h--;
             } else if (sum < 0) {
-                if (Math.abs(sum) > min) {
-                    break;
-                } else {
-                    min = Math.abs(sum);
-                    L = l;
-                    H = h;
-                }
                 l++;
             } else {
                 break;
