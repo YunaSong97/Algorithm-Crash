@@ -12,11 +12,11 @@ public class Main_BOJ_2470 {
 
         int n = Integer.parseInt(br.readLine());
 
-        ArrayList<Long> liqList = new ArrayList<>();
+        ArrayList<Integer> liqList = new ArrayList<>();
 
         StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; i++) {
-            liqList.add(Long.parseLong(st.nextToken()));
+            liqList.add(Integer.parseInt(st.nextToken()));
         }
 
         Collections.sort(liqList);
@@ -24,10 +24,10 @@ public class Main_BOJ_2470 {
         int h = n - 1;
         int L = 0;
         int H = n - 1;
-        long min = Math.abs(liqList.get(l) + liqList.get(h));
+        int min = Math.abs(liqList.get(l) + liqList.get(h));
 
         while (l < h) {
-            long sum = liqList.get(l) + liqList.get(h);
+            int sum = liqList.get(l) + liqList.get(h);
 
             if (Math.abs(sum) < min) {
                 min = Math.abs(sum);
