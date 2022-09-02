@@ -21,4 +21,6 @@
 |**4주차**<br>Graph<br> (08.12 ~ 08.18)|[이분 그래프](https://www.acmicpc.net/problem/1707)|[줄 세우기](https://www.acmicpc.net/problem/2252)|[스타트와 링크](https://www.acmicpc.net/problem/14889)|[치킨 배달](https://www.acmicpc.net/problem/15686)||
 |**5주차**<br>Implementation<br> (08.19 ~ 08.25)|[2048(Easy)](https://www.acmicpc.net/problem/12100)|[아기 상어](https://www.acmicpc.net/problem/16236)|[상어 초등학교](https://www.acmicpc.net/problem/21608)|[로봇 청소기](https://www.acmicpc.net/problem/14503)||
 |**6주차**<br>Two-pointer<br> (08.26 ~ 09.01)|[회전 초밥](https://www.acmicpc.net/problem/2531)|[두 용액](https://www.acmicpc.net/problem/2470)||
+|**7주차**<br>Binary Search<br> (09.02 ~ 09.15)|[입국 심사](https://www.acmicpc.net/problem/3079)|[공유기 설치](https://www.acmicpc.net/problem/2110)||
+|**8주차**<br>Binary Search<br> (09.02 ~ 09.15)|[두 큐 합 같게](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|[k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335)|[양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)||
 </details>
