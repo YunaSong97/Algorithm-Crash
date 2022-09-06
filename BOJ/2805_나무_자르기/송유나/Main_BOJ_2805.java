@@ -37,9 +37,12 @@ public class Main_BOJ_2805 {
 
             if (sum < m) {
                 high = mid - 1;
-            } else {
+            } else if(sum > m) {
                 ans = mid;
                 low = mid + 1;
+            } else{
+                ans = mid;
+                break;
             }
         }
 
