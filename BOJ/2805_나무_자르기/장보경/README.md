@@ -1,6 +1,6 @@
 # 2805 나무 자르기
 
-![캡처](https://user-images.githubusercontent.com/72604908/189536094-fe3285b2-9e88-4be3-b53c-da41db6ac1a4.PNG)
+![캡처](https://user-images.githubusercontent.com/72604908/189538114-b47a3912-3e08-44ad-87cb-cd767f5940c6.PNG)
 
 ### # main()
 1. 입력받아서 정렬한다.
