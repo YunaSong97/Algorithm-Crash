@@ -21,14 +21,14 @@ public class Main {
         }
         Arrays.sort(arr);
 
-        System.out.println(bs()-1);
+        System.out.println(bs());
     }
 
     public static long bs(){
         long left = 0;
-        long right = arr[n-1]+1;
+        long right = arr[n-1];
 
-        while (left < right){
+        while (left <= right){
             long mid = (left+right)/2;
 
             long cnt = 0;
@@ -39,13 +39,13 @@ public class Main {
             }
 
             if (cnt < m){
-                right = mid;
+                right = mid-1;
             }
             else {
                 left = mid+1;
             }
         }
 
-        return left;
+        return right;
     }
 }
