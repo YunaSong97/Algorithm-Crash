@@ -15,7 +15,7 @@ public class PG_92342 {
             return ans;
         }
 
-        private void combination(int[] info, int depth, int n) {
+        private void dfs(int[] info, int depth, int n) {
             if (depth == n) {
                 int apeach = 0;
                 int lion = 0;
@@ -41,7 +41,7 @@ public class PG_92342 {
 
             for (int i = 0; i < 11 && res[i] <= info[i]; i++) {//어피치 점수보다 작거나 같을때까지만 실행 왜냐하면 어피치 점수보다 크면 어차피 점수를 따기 때문에
                 res[i]++;
-                combination(info, depth + 1, n);
+                dfs(info, depth + 1, n);
                 res[i]--;
             }
         }
