@@ -5,6 +5,8 @@
 시간초과 : 점수 계산할 때, 둘이 점수가 같으면서 0이면 continue를 먼저 해줘야된다. 마지막에 else안에 같으면서 0인거 처리하니까 시간초과남</br>
 
 **배열 복사**</br>
+<li>
 Arrays.clone() : 깊은 복사<br>
 Arrays.copyOf() : 깊은 복사 & 마지막 인덱스 지정<br>
 Arrays.copyOfRange() : 깊은 복사 & 시작, 마지막 인덱스 지정
+</li>
