@@ -6,7 +6,7 @@
 
 **배열 복사**</br>
 <li>
-Arrays.clone() : 깊은 복사<br>
-Arrays.copyOf() : 깊은 복사 & 마지막 인덱스 지정<br>
+Arrays.clone() : 깊은 복사
+Arrays.copyOf() : 깊은 복사 & 마지막 인덱스 지정
 Arrays.copyOfRange() : 깊은 복사 & 시작, 마지막 인덱스 지정
 </li>
