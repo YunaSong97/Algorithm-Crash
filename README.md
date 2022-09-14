@@ -23,5 +23,5 @@
 |**6주차**<br>Two-pointer<br> (08.26 ~ 09.01)|[회전 초밥](https://www.acmicpc.net/problem/2531)|[두 용액](https://www.acmicpc.net/problem/2470)||
 |**7주차**<br>Binary Search<br> (09.02 ~ 09.15)|[나무 자르기](https://www.acmicpc.net/problem/2805)|[입국 심사](https://www.acmicpc.net/problem/3079)|[양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)||
 |**8주차**<br>KAKAO 2022<br> (09.02 ~ 09.15)|[두 큐 합 같게](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|[k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335)|[양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)||
-|**9주차**<br>KAKAO<br> (09.16 ~ 09.22)|[주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/118669)|[등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335)|[합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)|[징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062)||
+|**9주차**<br>KAKAO<br> (09.16 ~ 09.22)|[주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)|[등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335)|[합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)|[징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062)||
 </details>
