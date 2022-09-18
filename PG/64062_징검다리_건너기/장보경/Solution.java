@@ -22,6 +22,7 @@ class Solution {
 
                 if (cnt == k){  // 밟지 못하는 디딤돌의 수가 k라면
                     cantGo = true;
+                    break;
                 }
             }
 
