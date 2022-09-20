@@ -11,4 +11,5 @@ Record 클래스</br>
 3. OUT 이면, out시간 갱신, calTime 해서 총 시간 계산
 4. Record ArrayList에서 check=false(계산 안된 차)는 out시간을 23:59로 해주고 총 시간 계산.
 5. 정렬해서 돈계산
+</br>
 ![image](https://user-images.githubusercontent.com/33195517/190081773-da825fd7-e6e6-4971-8591-7ef422cdab04.png)
