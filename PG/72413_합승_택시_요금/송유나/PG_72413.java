@@ -31,9 +31,14 @@ class PG_72413 {
         int sum = Integer.MAX_VALUE;
         for (int k = 1; k <= n; k++) {//k : 거쳐가는 노드
             for (int i = 1; i <= n; i++) {//i : 출발 노드
-                for (int j = 1; j <= n; j++) {//j : 도착 노드
+                /*for (int j = 1; j <= n; j++) {//j : 도착 노드
                     d[i][j] = Math.min(d[i][j], d[i][k] + d[k][j]);
-
+                    
+                }*/
+                //i->j, j->i 가중치 같으면 ?
+                for (int j = i + 1; j <= n; j++) {//j : 도착 노드
+                    d[i][j] = Math.min(d[i][j], d[i][k] + d[k][j]);
+                    d[j][i] = d[i][j];
                 }
             }
         }
