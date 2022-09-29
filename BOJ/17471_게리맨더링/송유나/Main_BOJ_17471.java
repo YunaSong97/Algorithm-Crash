@@ -28,6 +28,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
 		StringTokenizer st = new StringTokenizer(br.readLine());
 
 		n = Integer.parseInt(st.nextToken());
@@ -53,16 +54,17 @@ public class Main {
 			comb(res, 0, 0, i);
 		}
 
-		if (answer == Integer.MAX_VALUE) {
+		if(answer==Integer.MAX_VALUE) {
 			answer = -1;
 		}
-
+		
 		System.out.println(answer);
 	}
 
 	static void comb(boolean[] res, int start, int depth, int cnt) {
 		if (depth == cnt) {
-			if (countArea(res) == 2) {
+
+			if (countArea(res)) {
 				int a = 0;
 				int b = 0;
 
@@ -79,27 +81,32 @@ public class Main {
 
 			return;
 		}
-
 		for (int i = start; i < n; i++) {
+
 			res[i] = true;
 			comb(res, i + 1, depth + 1, cnt);
 			res[i] = false;
 		}
 	}
 
-	static int countArea(boolean[] res) {
+	static boolean countArea(boolean[] res) {
 		boolean[] visit = new boolean[n + 1];
 		int cnt = 0;
 
 		for (int i = 1; i <= n; i++) {
 			if (!visit[i]) {
 				visit[i] = true;
-				bfs(res, visit, nodes[i - 1]);
 				cnt++;
+                if(cnt>2){
+                    return false;
+                }
+                bfs(res, visit, nodes[i - 1]);
 			}
 		}
-
-		return cnt;
+        if(cnt==2){
+            return true;
+        }
+        return false;
 	}
 
 	static void bfs(boolean[] res, boolean[] visit, Node start) {
@@ -109,7 +116,6 @@ public class Main {
 		while (!queue.isEmpty()) {
 
 			Node now = queue.poll();
-
 			for (int n : now.nodes) {
 				if (!visit[n] && res[n - 1] == res[now.idx - 1]) {
 					queue.add(nodes[n - 1]);
