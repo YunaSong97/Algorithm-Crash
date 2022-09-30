@@ -25,5 +25,5 @@
 |**8주차**<br>KAKAO 2022<br> (09.02 ~ 09.15)|[두 큐 합 같게](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|[k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335)|[양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)||
 |**9주차**<br>KAKAO<br> (09.16 ~ 09.22)|[주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)|[등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)|[합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413)|[징검다리 건너기](https://school.programmers.co.kr/learn/courses/30/lessons/64062)||
 |**10주차**<br>Bruteforcing<br> (09.23 ~ 09.29)|[게리맨더링](https://www.acmicpc.net/problem/17471)|[보물섬](https://www.acmicpc.net/problem/2589)|[감시](https://www.acmicpc.net/problem/15683)|[퇴사](https://www.acmicpc.net/problem/14501)||
-|**11주차**<br>Bruteforcing<br> (09.30 ~ 10.06)|[다리 만들기 2](https://www.acmicpc.net/problem/17472)|[색종이 붙이기](https://www.acmicpc.net/problem/17136)|[게리맨더링 2](https://www.acmicpc.net/problem/17779)|[마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20057)||
+|**11주차**<br>Bruteforcing<br> (09.30 ~ 10.06)|[마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)|[마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)|[마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20057)|[게리맨더링 2](https://www.acmicpc.net/problem/17779)||
 </details>
