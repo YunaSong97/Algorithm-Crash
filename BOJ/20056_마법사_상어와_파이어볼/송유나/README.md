@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/33195517/193980181-3308aede-5efd-4176-8d6e-e7ce8d779e4f.png)
 
-###Implementation
+### Implementation
 
 1. Fire를 fires 배열의 인덱스 (r-1) * n + (c-1) 에 저장한다.
 2. dr, dc를 인덱스에 맞게 설정해서 다음 움직이는 위치를 구하고, 범위를 조절한다.
