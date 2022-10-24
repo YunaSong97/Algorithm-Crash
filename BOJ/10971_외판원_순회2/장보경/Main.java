@@ -30,8 +30,10 @@ public class Main {
     }
 
     static void perm(int cnt, int first, int sum){
-        if (cnt == N && arr[first][0]!=0){
-            ans = Math.min(ans, sum+arr[first][0]);
+        if (cnt == N){
+        	if(arr[first][0] != 0) {
+        		ans = Math.min(ans, sum+arr[first][0]);
+        	}
             return;
         }
 
