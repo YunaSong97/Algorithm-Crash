@@ -29,4 +29,5 @@
 |**12주차**<br>Bruteforcing<br> (10.07 ~ 10.13)|[보물상자 비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo)|[핀볼 게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo)|[벽돌 깨기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo)|[줄기 세포 배양](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRJ8EKe48DFAUo)||
 |**13주차**<br>Backtracking<br> (10.21 ~ 10.27)|[사다리 조작](https://www.acmicpc.net/problem/15684)|[감소하는 수](https://www.acmicpc.net/problem/1038)|[외판원 순회 2](https://www.acmicpc.net/problem/10971)|[차이를 최대로](https://www.acmicpc.net/problem/10819)||
 |**14주차**<br>Greedy<br> (10.28 ~ 11.03)|[센서](https://www.acmicpc.net/problem/2212)|[우체국](https://www.acmicpc.net/problem/2141)|[회문](https://www.acmicpc.net/problem/17609)|[지뢰찾기](https://www.acmicpc.net/problem/9082)||
+|**15주차**<br>Greedy<br> (11.04 ~ 11.10)|[호식이 두 마리 치킨](https://www.acmicpc.net/problem/21278)|[링크와 스타트](https://www.acmicpc.net/problem/15661)|[회문](https://www.acmicpc.net/problem/17609)|[인구 이동](https://www.acmicpc.net/problem/16234)||
 </details>
