@@ -32,7 +32,7 @@ public class Main_BOJ_21278 {
 			adjList.get(a).add(b);
 			adjList.get(b).add(a);
 		}
-
+		
 		int timeSum = 0;
 		Answer answer = new Answer(0, 0, Integer.MAX_VALUE);
 
@@ -43,11 +43,13 @@ public class Main_BOJ_21278 {
 		}
 		
 		for (int i = 1; i < N + 1; i++) {
-			for (int j = i; j < N + 1; j++) {
-				for (int k = 1; k < N+1; k++) {
+			for (int j = i + 1; j < N + 1; j++) {
+				for (int k = 1; k < N + 1; k++) {
+				
 					if (k != i && k != j) {
 						timeSum += Math.min(timeMap[i][k], timeMap[j][k]);
-						if (timeSum > answer.time) break;
+						
+						if (timeSum >= answer.time)	break;
 					}
 				}
 
@@ -64,11 +66,11 @@ public class Main_BOJ_21278 {
 		System.out.println(answer.toString());
 	}
 
-	static int getTime(int x, int y) {
+	static void getTime(int x, int y) {
 		int time = 1;
 		boolean[] visited = new boolean[N + 1];
 		Queue<Integer> queue = new ArrayDeque<>();
-		
+
 		queue.add(x);
 		visited[x] = true;
 
@@ -77,14 +79,16 @@ public class Main_BOJ_21278 {
 
 			while (qSize-- > 0) {
 				int now = queue.poll();
-
-				if (now == y) {
-					timeMap[x][y] = time;
-					timeMap[y][x] = time;
-					return time;
-				}
-
+				
 				for (int child : adjList.get(now)) {
+					
+					if (child == y) {
+						timeMap[x][y] = time * 2;
+						timeMap[y][x] = time * 2;
+						
+						return;
+					}
+					
 					if (!visited[child]) {
 						queue.add(child);
 						visited[child] = true;
@@ -95,7 +99,7 @@ public class Main_BOJ_21278 {
 			time++;
 		}
 
-		return time;
+		return;
 	}
 
 	static class Answer {
@@ -106,9 +110,9 @@ public class Main_BOJ_21278 {
 			this.buildingNum2 = buildingNum2;
 			this.time = time;
 		}
-		
+
 		public String toString() {
-			
+
 			return this.buildingNum1 + " " + this.buildingNum2 + " " + this.time;
 		}
 	}
