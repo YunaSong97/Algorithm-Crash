@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Main_BOJ_17281 {
 	static int[][] scores;
 	static int N;
 	static int outCnt = 0;
